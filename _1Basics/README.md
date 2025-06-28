@@ -1,0 +1,2 @@
+Difference between print and println:
+The main difference between `print` and `println` is that `print` outputs the text without adding a new line at the end, while `println` adds a new line after printing the text.
