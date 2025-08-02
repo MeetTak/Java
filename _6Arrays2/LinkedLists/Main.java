@@ -26,9 +26,9 @@ public class Main {
         list.addFirst("Darwin");
         list.addLast("Hobart");
         // Queue methods
-        list.offer("Melbourne");
-        list.offerFirst("Brisbane");
-        list.offerLast("Toowoomba");
+        list.offer("Melbourne"); // add an element to the last, does not  throw any exception unlike the add() method
+        list.offerFirst("Brisbane"); //  add the  element in the first position
+        list.offerLast("Toowoomba"); // add the element in the  last position
         // Stack methods
         list.push("Alice Springs");
 
@@ -63,8 +63,5 @@ public class Main {
 
         String p4 = list.pop(); // removes first element
         System.out.println(p4 + " was removed");
-
-
-
     }
 }
