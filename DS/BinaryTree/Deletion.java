@@ -2,6 +2,7 @@ package DS.BinaryTree;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.function.Function;
 
 class Deletion {
     // Function to delete a node from the binary tree
